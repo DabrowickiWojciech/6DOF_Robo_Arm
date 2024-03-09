@@ -10,8 +10,7 @@ The project only has program without any mechanical parts.
 ## About The Project
 I was encourage to take part in a uni project that was a 6 degrees of freedom robo arm. The code included has 2 parts.
 Code:
-***/src/arm_1.1.py***,
-***/src/rearanged.py***.
+***/src/arm_1.1.py*** and ***/src/rearanged.py***.
 Info:
 This part is just to simplify what should you have before coding (jpg) and matlab file was made to help with matrixes.
 
