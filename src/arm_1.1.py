@@ -1,7 +1,6 @@
 from cmath import sqrt
 from math import atan2
 import numpy
-import IK
 
 def main():
     #x = (float)(input("Enter a value of x : "))
@@ -64,8 +63,7 @@ def main():
     yuser = yfp
     zuser = zfp
     
-    #dodać do tego mozliwe obroty dla th4 przez co doda sie dodatkowe -odleglosc bo trzeba policzyc czy to sin itp itd w jaka strone jest ramie koncowe itp itd 
-    #most optimal way to determinate possition, but the position of the gripper is always perpendicular to the floor
+    #most optimal way to determinate position, but the position of the gripper is always perpendicular to the floor
     if (numpy.sqrt((abs(zuser))**2 + (numpy.sqrt((abs(xuser))**2 + (abs(yuser))**2))**2) >  r2+d4+d6):
         print("Point out of range")
     else:
